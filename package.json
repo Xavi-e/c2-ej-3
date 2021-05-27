@@ -1,7 +1,7 @@
 {
   "name": "pera",
   "version": "1.0.0",
-  "description": "",
+  "description": "En el HTML, crea un formulario (utiliza la etiqueta `<form>`) que tenga los elementos que aparecen en la maqueta. Utiliza Bootstrap y tu propio CSS.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,13 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.3",
     "eslint-config-prettier": "^8.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavi-e/c2-ej-2-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xavi-e/c2-ej-2-5/issues"
+  },
+  "homepage": "https://github.com/Xavi-e/c2-ej-2-5#readme"
 }
