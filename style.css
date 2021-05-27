@@ -1,0 +1,18 @@
+main .recuadro {
+  border: 5px solid #000;
+}
+body {
+  padding-top: 200px;
+}
+
+section .boton {
+  padding-top: 10px;
+}
+
+section .formulario {
+  display: flex;
+}
+section ul li {
+  list-style: none;
+
+}

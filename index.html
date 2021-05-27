@@ -2,16 +2,26 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analizador de palabras</title>
-    <script src="js/analiza-palabras.js"></script>
-    <script src="js/scripts.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de palabras</title>
+  <script src="js/analiza-palabras.js"></script>
+  <script src="js/scripts.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 </head>
 
 <body>
-
+  <section class="container-fluid  text-center">
+    <form action="" method="get" class="formulario row">
+      <ul class="caja col-12">
+        <li class="col-12 este"><label for="name">Palabras:</label></li>
+        <li class="col-12"><input type="text" name="name" id="name" required></li>
+        <li class="col-12 boton este"><input type="submit" value="Procesar" class="procesar"></li>
+      </ul>
+    </form>
+  </section>
 </body>
 
 </html>
