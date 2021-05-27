@@ -2,16 +2,33 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analizador de palabras</title>
-    <script src="js/analiza-palabras.js"></script>
-    <script src="js/scripts.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador de palabras</title>
+  <script src="js/analiza-palabras.js"></script>
+  <script src="js/scripts.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
+  <main>
+    <section class="vh-100 d-flex justify-content-center align-items-center">
+      <div class="box-formulario rounded">
+        <form action="" class="formulario">
+          <div class="form-group">
+            <label for="palabras">Palabras:</label>
+            <textarea class="input-formulario form-control" name="palabras" id="palabras" cols="30" rows="2"></textarea>
+          </div>
+          <button type="submit" class="boton-formulario btn btn-primary">
+            Procesar
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
